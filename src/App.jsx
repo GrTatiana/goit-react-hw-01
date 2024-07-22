@@ -2,7 +2,6 @@ import "./App.css";
 import { Heading } from "./components/Heading/Heading";
 import Profile from "./components/Profile/Profile";
 import userData from "./data/userData.json";
-
 import transactions from "./data/transactions.json";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
 
