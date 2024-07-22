@@ -1,15 +1,17 @@
-.profile{
-  padding-top: 15px;
+.profile {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 340px;
   background-color: #ece9e9;
-  border: 3px solid #000000;
-  border-radius: 5px;
+  border: 2px solid #000000;
+  border-radius: 3px;
 }
 .profileImg {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background-color: #000000;
-  margin-bottom: 10px;;
+  margin-bottom: 10px;
 }
 .profileUsername {
   font-size: 24px;
@@ -17,30 +19,27 @@
   color: black;
   margin: 0 auto;
 }
-.profileTag{
+.profileTag {
   font-size: 18px;
-  font-weight: 400px;
   color: rgba(77, 76, 76, 0.847);
   margin: 0 auto;
 }
 
-.profileList{
+.profileList {
   display: flex;
   padding: 0;
   margin: 0 auto;
   list-style-type: none;
   background-color: #cac8c8;
 }
-.profileListItem{
-  display:flex ;
+.profileListItem {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
-  flex-wrap: wrap;
-  gap: 10px;
-  border: 2px solid rgb(140, 139, 139);
-  padding: 20px 30px;
-
+  width: 110px;
+  border-left: 2px solid rgb(140, 139, 139);
+  border-top: 2px solid rgb(140, 139, 139);
+  padding: 10px 0;
 }
 .profileFVL {
   font-size: 16px;
@@ -48,7 +47,7 @@
   color: black;
 }
 
-.profileFVLItem{
+.profileFVLItem {
   font-size: 16px;
   font-weight: 400;
   color: black;
